@@ -1,66 +1,59 @@
-<svg width="945" height="213" viewBox="0 0 945 213" version="2.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<svg width="842" height="190" viewBox="0 0 842 190" version="2.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
 <title>Group</title>
 <desc>Created using Figma (9000)</desc>
-<g id="Canvas" transform="translate(-2323 -2253)" figma:type="canvas">
+<g id="Canvas" transform="translate(-2191 -2558)" figma:type="canvas">
+<g id="Group" style="mix-blend-mode:normal;" figma:type="group">
 <g id="Group" style="mix-blend-mode:normal;" figma:type="group">
 <g id="Group" style="mix-blend-mode:normal;" figma:type="group">
 <g id="Rectangle 2" style="mix-blend-mode:normal;" opacity="0.75" figma:type="vector">
-<use xlink:href="#path0_fill" transform="matrix(-1 0 0 1 2523.65 2253.89)" fill="#EB5757" style="mix-blend-mode:normal;"/>
+<use xlink:href="#path0_fill" transform="matrix(-1 0 0 1 2371.74 2558.09)" fill="#EB5757" style="mix-blend-mode:normal;"/>
 </g>
 <g id="Ellipse 2" style="mix-blend-mode:normal;" opacity="0.75" figma:type="ellipse">
-<use xlink:href="#path1_fill" transform="translate(2399.52 2417.02)" fill="#F2994A" style="mix-blend-mode:normal;"/>
-</g>
-<g id="Ellipse 2" style="mix-blend-mode:normal;" opacity="0.75" figma:type="ellipse">
-<use xlink:href="#path1_fill" transform="translate(2543.35 2417.02)" fill="#F2C94C" style="mix-blend-mode:normal;"/>
-</g>
-<g id="Ellipse 2" style="mix-blend-mode:normal;" opacity="0.75" figma:type="ellipse">
-<use xlink:href="#path1_fill" transform="translate(2475.31 2417.02)" fill="#333333" fill-opacity="0.25" style="mix-blend-mode:normal;"/>
+<use xlink:href="#path1_fill" transform="matrix(1 0 0 1 2260.3 2704.75)" fill="#FFD54F" style="mix-blend-mode:normal;"/>
 </g>
 <g id="Rectangle 2" style="mix-blend-mode:normal;" opacity="0.75" figma:type="rounded-rectangle">
-<use xlink:href="#path2_fill" transform="matrix(0.906199 0.42285 -0.42285 0.906199 2411.76 2246)" fill="#56CCF2" style="mix-blend-mode:normal;"/>
+<use xlink:href="#path2_fill" transform="matrix(0.905971 0.423339 -0.422363 0.906427 2271.29 2551)" fill="#56CCF2" style="mix-blend-mode:normal;"/>
 </g>
-<g id="Ellipse 2" style="mix-blend-mode:normal;" opacity="0.75" figma:type="ellipse">
-<use xlink:href="#path1_fill" transform="translate(2323.74 2417.02)" fill="#333333" fill-opacity="0.25" style="mix-blend-mode:normal;"/>
 </g>
 </g>
 <g id="airtime" style="mix-blend-mode:normal;" figma:type="vector">
-<use xlink:href="#path3_fill" transform="translate(2634.75 2283)" fill="#545557" style="mix-blend-mode:normal;"/>
-<use xlink:href="#path4_fill" transform="translate(2634.75 2283)" fill="#545557" style="mix-blend-mode:normal;"/>
-<use xlink:href="#path5_fill" transform="translate(2634.75 2283)" fill="#545557" style="mix-blend-mode:normal;"/>
-<use xlink:href="#path6_fill" transform="translate(2634.75 2283)" fill="#545557" style="mix-blend-mode:normal;"/>
-<use xlink:href="#path7_fill" transform="translate(2634.75 2283)" fill="#545557" style="mix-blend-mode:normal;"/>
-<use xlink:href="#path8_fill" transform="translate(2634.75 2283)" fill="#545557" style="mix-blend-mode:normal;"/>
-<use xlink:href="#path9_fill" transform="translate(2634.75 2283)" fill="#545557" style="mix-blend-mode:normal;"/>
+<use xlink:href="#path3_fill" transform="translate(2399.52 2577)" fill="#545557" style="mix-blend-mode:normal;"/>
+<use xlink:href="#path4_fill" transform="translate(2399.52 2577)" fill="#545557" style="mix-blend-mode:normal;"/>
+<use xlink:href="#path5_fill" transform="translate(2399.52 2577)" fill="#545557" style="mix-blend-mode:normal;"/>
+<use xlink:href="#path6_fill" transform="translate(2399.52 2577)" fill="#545557" style="mix-blend-mode:normal;"/>
+<use xlink:href="#path7_fill" transform="translate(2399.52 2577)" fill="#545557" style="mix-blend-mode:normal;"/>
+<use xlink:href="#path8_fill" transform="translate(2399.52 2577)" fill="#545557" style="mix-blend-mode:normal;"/>
+<use xlink:href="#path9_fill" transform="translate(2399.52 2577)" fill="#545557" style="mix-blend-mode:normal;"/>
 </g>
 </g>
 </g>
 <defs>
 <path id="path0_fill" d="
-M 78.37 13.8573
-C 83.9748 1.84579 98.2557 -3.34788 110.267 2.25694
-C 122.279 7.86175 127.472 22.1426 121.868 34.1541
-L 45.7545 197.27
-C 40.1497 209.282 25.8688 214.475 13.8573 208.87
-C 1.84579 203.266 -3.34788 188.985 2.25694 176.973
-L 78.37 13.8573
+M 70.3583 12.4582
+C 75.3902 1.65943 88.2111 -3.00985 98.9947 2.02906
+C 109.778 7.06798 114.441 19.907 109.409 30.7057
+L 41.0771 177.352
+C 36.0452 188.151 23.2243 192.82 12.4407 187.782
+C 1.65709 182.743 -3.00563 169.904 2.02621 159.105
+L 70.3583 12.4582
 Z"/>
 <path id="path1_fill" d="
-M 48 24
-C 48 37.2548 37.2548 48 24 48
-C 10.7452 48 0 37.2548 0 24
-C 0 10.7452 10.7452 0 24 0
-C 37.2548 0 48 10.7452 48 24
+M 43.093 21.5768
+C 43.093 33.4934 33.4463 43.1536 21.5465 43.1536
+C 9.6467 43.1536 0 33.4934 0 21.5768
+C 0 9.66027 9.6467 0 21.5465 0
+C 33.4463 0 43.093 9.66027 43.093 21.5768
 Z"/>
 <path id="path2_fill" d="
-M 0 24
-C 0 10.7452 10.7452 0 24 0
-L 24 0
-C 37.2548 0 48 10.7452 48 24
-L 48 204
-C 48 217.255 37.2548 228 24 228
-L 24 228
-C 10.7452 228 0 217.255 0 204
-L 0 24
+M 0 21.5519
+C 0 9.64912 9.64912 0 21.5519 0
+L 21.5519 0
+C 33.4547 0 43.1038 9.64912 43.1038 21.5519
+L 43.1038 183.376
+C 43.1038 195.279 33.4547 204.928 21.5519 204.928
+L 21.5519 204.928
+C 9.64912 204.928 0 195.279 0 183.376
+L 0 21.5519
 Z"/>
 <path id="path3_fill" d="
 M 60.6 108.1
