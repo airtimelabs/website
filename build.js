@@ -2,9 +2,7 @@ var path = require('path'),
     metalsmith = require('metalsmith'),
     branch = require('metalsmith-branch'),
     permalinks = require('metalsmith-permalinks'),
-    less = require('metalsmith-less'),
     concat = require('metalsmith-concat'),
-    uglify = require('metalsmith-uglify'),
     sitemap = require('metalsmith-sitemap'),
     filenames = require('metalsmith-filenames'),
     inPlace = require('metalsmith-in-place'),
@@ -26,20 +24,11 @@ var siteBuild = metalsmith(__dirname)
   .source('./src')
   .destination('./build')
 
-  // CSS Processing
-  .use(less())
-
-  // JS
-  .use(branch('**/index.js')
-    .use(uglify())
-  )
-  .use(branch('**/jquery.js')
-    .use(uglify())
-  )
   .use(concat({
     files: [
-      'js/jquery.min.js',
-      'js/index.min.js'
+      'js/jquery.js',
+      'js/main.js',
+      'js/application.js'
     ],
     output: 'js/bundle.js'
   }))
@@ -78,7 +67,7 @@ var siteBuild = metalsmith(__dirname)
       }))
       .use(watch({
         paths: {
-          'src/css/**/*' : '**/*.less',
+          'src/css/**/*' : '**/*.css',
           'src/js/**/*' : '**/*.js',
           'src/**/*': '**/*.html',
           'templates/**/*': '**/*.html',
