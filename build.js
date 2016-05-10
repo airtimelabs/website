@@ -3,6 +3,7 @@ var path = require('path'),
     branch = require('metalsmith-branch'),
     permalinks = require('metalsmith-permalinks'),
     concat = require('metalsmith-concat'),
+    uglify = require('metalsmith-uglify'),
     sitemap = require('metalsmith-sitemap'),
     filenames = require('metalsmith-filenames'),
     inPlace = require('metalsmith-in-place'),
@@ -24,11 +25,13 @@ var siteBuild = metalsmith(__dirname)
   .source('./src')
   .destination('./build')
 
+  // JS
+  .use(uglify())
   .use(concat({
     files: [
-      'js/jquery.js',
-      'js/main.js',
-      'js/application.js'
+      'js/jquery.min.js',
+      'js/main.min.js',
+      'js/application.min.js'
     ],
     output: 'js/bundle.js'
   }))
