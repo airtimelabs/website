@@ -10,7 +10,7 @@ sitemap_exclude: false
 {% extends 'templates/default.html' %}
 
 {% block masthead %}
-  <div class="block block-fill-height app-header" style="background-image: url(/media/desk.jpg);">
+  <div class="block block-fill-height app-header" style="background-image: -moz-linear-gradient(top,  #ffffff 0%, rgba(128,217,245,.25) 100%);background-image: -webkit-linear-gradient(top,  #ffffff 0%, rgba(128,217,245,.25) 100%);background-image: linear-gradient(to bottom,  #ffffff 0%, rgba(128,217,245,.25) 100%);">
 
     {% include 'templates/_partials/nav.html' %}
 
@@ -38,22 +38,48 @@ sitemap_exclude: false
         </div>
 
         <div class="col-sm-6 col-sm-offset-1">
-          <h6 class="text-muted text-uppercase">Rich Information</h6>
-          <h3 class="m-t-0">Make informed decisions with historical & real time data.</h3>
-          <p class="lead m-b-md">We combine immediate real time events with rich historical data to help answer the toughest questions about retention, growth, and engagement.</p>
-          <div class="row hidden-sm">
-            <div class="col-sm-6 m-b-md">
-              <h5 class="m-y-0">Data frequency</h5>
-              <p>We poll for data on a millisecond basis. You can react to new information in seconds rather than days. <a href="#" class="text-primary">Learn more.</a></p>
-            </div>
-            <div class="col-sm-6">
-              <h5 class="m-y-0">Reliability & uptime</h5>
-              <p>We process our data across a massively distributed network of reliable servers to ensure 99.99% uptime, always. <a href="#" class="text-primary">Learn more</a>.</p>
-            </div>
-          </div>
+          <h3 class="m-t-0">What is Airtime?</h3>
+          <p class="lead m-b-md">Airtime provides families with the most flexible plans and devices around. Every kid is different, and as parents you need flexible tools to help them connect. Airtime is designed to be a smarter approach for helping kids and their smartphone experience.</p>
         </div>
       </div>
 
+    </div>
+  </div>
+
+  <div class="block block-secondary app-price-plans">
+    <div class="container text-center">
+
+      <div class="row m-b-lg">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
+          <h3  class="m-t-0 m-b">Smart phones with smart features.</h3>
+        </div>
+      </div>
+
+      <div class="row app-marketing-grid">
+        <div class="col-sm-6 p-x-md m-b-lg">
+          <img class="m-b" src="media/startup-9.svg">
+          <h4>Airtime</h4>
+          <p>Flexible plans for your kids.</p>
+        </div>
+        <div class="col-sm-6 p-x-md m-b-lg">
+          <img class="m-b" src="media/startup-10.svg">
+          <h4>Devices</h4>
+          <p>Simple and affordable devices.</p>
+        </div>
+      </div>
+
+      <div class="row app-marketing-grid">
+        <div class="col-sm-6 p-x-md m-b-lg">
+          <img class="m-b" src="media/startup-12.svg">
+          <h4>Circle with Disney</h4>
+          <p>Parental controls for your home.</p>
+        </div>
+        <div class="col-sm-6 p-x-md m-b-lg">
+          <img class="m-b" src="media/startup-13.svg">
+          <h4>Circle Go</h4>
+          <p>Manage the devices on the go.</p>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -61,101 +87,31 @@ sitemap_exclude: false
     <div class="container">
       <div class="row app-align-center">
         <div class="col-sm-5 col-sm-push-7">
-          <pre class="app-code">
-  <span>1</span> <span class="hidden-xs">goAnalytics</span> “who are the latest 3 users?”
-  <span>2</span>
-  <span>3</span>  {
-  <span>4</span>    "Dave": {
-  <span>5</span>      "fullName": "Dave Gamache",
-  <span>6</span>      "twitterHandle": "@dhg",
-  <span>7</span>    }
-  <span>8</span>    "Mark": {
-  <span>9</span>      "fullName": "Mark Otto",
-  <span>10</span>      "twitterHandle": "@mdo",
-  <span>11</span>    }
-  <span>12</span>    "Jacob": {
-  <span>13</span>      "fullName": "Jacob Thornton",
-  <span>14</span>      "twitterHandle": "@fat",
-  <span>15</span>    }
-  <span>16</span>  }</pre>
+          <img class="app-iphone" src="media/startup-2.jpg" style="width: 100%;">
         </div>
-
         <div class="col-sm-6 col-sm-pull-5">
-          <h6 class="text-muted text-uppercase">Easy development</h6>
-          <h3 class="m-t-0">Natural language queries make mining data easy for anyone.</h3>
-          <p class="lead m-b-md text-muted">Rather than force everyone at your company to learn incredibly difficult terminal commands, we allow anyone to query the data with natural language to return data.</p>
-          <button class="btn btn-default btn-lg btn-borderless">
-            Read our docs
-          </button>
+          <h6 class="text-muted text-uppercase">How it Works</h6>
+          <h3 class="m-t-0">It shouldn’t be complicated, so we made it easy.</h3>
+          <p class="lead m-b-md text-muted"> Airtime is really simple. Put as much or as little cash into your kid’s airtime bank and choose how much text, talk, and data you want them to have, at any given time, for a price that makes sense. Change how the airtime can be used at any time. No hidden fees, no additional surcharges, and no complicated monthly plans.</p>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="block block-secondary app-high-praise p-b-0">
+  <div class="block block-secondary app-iphone-block">
     <div class="container">
       <div class="row app-align-center">
-        <div class="col-sm-5 col-sm-push-7">
-          <h6 class="text-muted text-uppercase">High Praise</h6>
-          <h3 class="m-t-0 m-b-md">“Go Analytics is amazing. Decisions that used to take weeks, now only takes minutes and is available to everyone on my team.”</h3>
-          <p class="m-b-md text-muted">Cindy Smith, founder of Cool Startup</p>
+
+        <div class="col-sm-5 hidden-xs">
+          <img class="app-iphone" src="media/startup-2.jpg" style="width: 100%;">
         </div>
-        <div class="col-sm-6 col-sm-pull-5">
-          <img src="media/startup-3.jpg">
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <div class="block app-ribbon p-y-lg">
-    <div class="container text-center">
-      <img src="media/startup-4.svg">
-      <img src="media/startup-5.svg">
-      <img src="media/startup-6.svg">
-      <img src="media/startup-7.svg">
-      <img src="media/startup-8.svg">
-    </div>
-  </div>
-
-  <div class="block block-secondary app-block-marketing-grid">
-    <div class="container text-center">
-
-      <div class="row m-b-lg">
-        <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
-          <h6 class="text-muted text-uppercase">Inside the machine</h6>
-          <h3  class="m-t-0 m-b">It’s not hard to see how we make your life easier every day.</h3>
+        <div class="col-sm-6 col-sm-offset-1">
+          <h3 class="m-t-0">Coverage</h3>
+          <p class="lead m-b-md">Keep your kids covered wherever they may go.</p>
         </div>
       </div>
 
-      <div class="row app-marketing-grid">
-        <div class="col-sm-4 p-x-md m-b-lg">
-          <img class="m-b" src="media/startup-9.svg">
-          <p><strong>24/7 support.</strong> We’re always here for you no matter what time of day.</p>
-        </div>
-        <div class="col-sm-4 p-x-md m-b-lg">
-          <img class="m-b" src="media/startup-10.svg">
-          <p><strong>E-commerce.</strong> We automatically handle all sales analytics.</p>
-        </div>
-        <div class="col-sm-4 p-x-md m-b-lg">
-          <img class="m-b" src="media/startup-11.svg">
-          <p><strong>Turnaround.</strong> Our data analysis is distributed, so it processes in seconds.</p>
-        </div>
-      </div>
-
-      <div class="row app-marketing-grid">
-        <div class="col-sm-4 p-x-md m-b-lg">
-          <img class="m-b" src="media/startup-12.svg">
-          <p><strong>Rich calculations.</strong> Limitless ways to splice and dice your data.</p>
-        </div>
-        <div class="col-sm-4 p-x-md m-b-lg">
-          <img class="m-b" src="media/startup-13.svg">
-          <p><strong>Mobile apps.</strong> iOS and Android apps available for monitoring.</p>
-        </div>
-        <div class="col-sm-4 p-x-md m-b-lg">
-          <img class="m-b" src="media/startup-14.svg">
-          <p><strong>Secure connections.</strong> Every single request is routed through HTTPS.</p>
-        </div>
-      </div>
     </div>
   </div>
 
@@ -164,64 +120,120 @@ sitemap_exclude: false
 
       <div class="row m-b-lg">
         <div class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
-          <h6 class="text-muted text-uppercase">Business Talk</h6>
-          <h3  class="m-t-0">No plans. We just bump your plan whenever you need it.</h3>
+          <h3  class="m-t-0">Plans</h3>
+          <p class="lead m-b-md">Flexible plans to meet your needs.</p>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-sm-4 p-x m-b-lg">
+        <div class="col-sm-6 p-x m-b-lg">
           <div class="p-x">
-            <h6 class="text-muted text-uppercase m-b">Personal</h6>
-            <img class="m-b" src="media/startup-15.svg">
-            <p>Plenty of processing power for any personal projects, big or small.</p>
+            <h6 class="text-muted text-uppercase m-b">Simple</h6>
+            <h1>$5<small>/mo.</small></h1>
+            <p>Starter monthly plan with airtime <em>a la carte</em>.</p>
           </div>
 
-          <ul class="list-unstyled list-bordered text-left m-y-md">
-            <li class="p-y"><strong>10k</strong> monthly requests</li>
-            <li class="p-y"><strong>9am-5pm</strong> technical supprt</li>
-            <li class="p-y"><strong>Public</strong> API access</li>
+          <ul class="list-unstyled list-bordered m-y-md">
+            <li class="p-y"><strong>4¢</strong> per minute (eg $2 = 100 min)</li>
+            <li class="p-y"><strong>1¢</strong> per text (eg. $1 = 100 txt)</li>
+            <li class="p-y"><strong>5¢</strong> per megabyte (eg. $2 = 40 MB)</li>
           </ul>
 
-          <button class="btn btn-lg btn-primary btn-block">
-            Start <span class="visible-lg-inline">a personal account</span>
+          <button class="btn btn-lg btn-warning btn-block">
+            Get Simple
           </button>
         </div>
 
-        <div class="col-sm-4 p-x m-b-lg">
+        <div class="col-sm-6 p-x m-b-lg">
           <div class="p-x">
-            <h6 class="text-muted text-uppercase m-b">Business</h6>
-            <img class="m-b" src="media/startup-16.svg">
-            <p>The perfect sized plan for small businesses to get started.</p>
+            <h6 class="text-muted text-uppercase m-b">Level Up</h6>
+            <h1>$20<small>/mo.</small></h1>
+            <p>Steady monthly plan with Airtime included.*</p>
           </div>
 
-          <ul class="list-unstyled list-bordered text-left m-y-md">
-            <li class="p-y"><strong>100k</strong> monthly requests</li>
-            <li class="p-y"><strong>24/7</strong> technical supprt</li>
-            <li class="p-y"><strong>Public</strong> API access</li>
+          <ul class="list-unstyled list-bordered m-y-md">
+            <li class="p-y"><strong>2¢</strong> per minute (eg $1 = 100 min)</li>
+            <li class="p-y"><strong>.5¢</strong> per text (eg. $1 = 200 txt)</li>
+            <li class="p-y"><strong>5¢</strong> per 2 MB (eg. $1 = 40 MB)</li>
           </ul>
 
-          <button class="btn btn-lg btn-primary btn-block">
-            Start <span class="visible-lg-inline">a business account</span>
+          <button class="btn btn-lg btn-warning btn-block">
+            Get Leveled Up
           </button>
+          <br />
+          <p><em>$15 Airtime included monthly to be used how you want.</em></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="block block-secondary">
+    <div class="container text-center">
+
+      <div class="row m-b-lg">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
+          <h6 class="text-muted text-uppercase m-b">Devices</h6>
+          <h3  class="m-t-0 m-b">Find the right device for your kid.</h3>
+          <p class="lead m-b-md">Your kid wants a smartphone, but somehow an 8 year old with the same phone as you doesn’t seem right. We’ve chosen 4 fantastic devices that would be great for any age.</p>
+        </div>
+      </div>
+
+      <div class="row app-marketing-grid">
+        <div class="col-sm-6 p-x-md m-b-lg">
+          <img class="m-b" src="media/startup-9.svg">
+          <h4>Posh C353</h4>
+        </div>
+        <div class="col-sm-6 p-x-md m-b-lg">
+          <img class="m-b" src="media/startup-10.svg">
+          <h4>Posh L500</h4>
+        </div>
+      </div>
+
+      <div class="row app-marketing-grid">
+        <div class="col-sm-6 p-x-md m-b-lg">
+          <img class="m-b" src="media/startup-12.svg">
+          <h4>iPhone 5</h4>
+        </div>
+        <div class="col-sm-6 p-x-md m-b-lg">
+          <img class="m-b" src="media/startup-13.svg">
+          <h4>iPad Mini 2</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="block block-inverse block-secondary app-primary">
+    <div class="container">
+      <div class="row app-align-center">
+        <div class="col-sm-5 col-sm-push-7">
+          <img class="app-iphone" src="media/startup-2.jpg" style="width: 100%;">
+        </div>
+        <div class="col-sm-6 col-sm-pull-5">
+          <h6 class="text-muted text-uppercase">Rewards</h6>
+          <h3 class="m-t-0">Make them earn it!</h3>
+          <p class="lead m-b-md text-muted">What if your kids could earn more airtime by doing the dishes or cleaning the room? With Airtime Rewards you can set up activities for your kids to complete and set an amount of airtime they'll earn if they do it.</p>
+          <p>
+            <a class="btn btn-info btn-lg disabled">
+              Coming Soon...
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="block block-secondary app-iphone-block">
+    <div class="container">
+      <div class="row app-align-center">
+
+        <div class="col-sm-5 hidden-xs">
+          <img class="app-iphone" src="media/startup-2.jpg" style="width: 100%;">
         </div>
 
-        <div class="col-sm-4 p-x m-b-lg">
-          <div class="p-x">
-            <h6 class="text-muted text-uppercase m-b">Corporate</h6>
-            <img class="m-b" src="media/startup-17.svg">
-            <p>An unlimited plan that will scale infinitely to any size project.</p>
-          </div>
-
-          <ul class="list-unstyled list-bordered text-left m-y-md">
-            <li class="p-y"><strong>Unlimited</strong> monthly requests</li>
-            <li class="p-y"><strong>24/7</strong> technical supprt</li>
-            <li class="p-y"><strong>Public & Private</strong> API access</li>
-          </ul>
-
-          <button class="btn btn-lg btn-primary btn-block">
-            Start <span class="visible-lg-inline">a corporate account</span>
-          </button>
+        <div class="col-sm-6 col-sm-offset-1">
+          <h6 class="text-muted text-uppercase">Parental Controls for Home</h6>
+          <h3 class="m-t-0">Circle with Disney</h3>
+          <p class="lead m-b-md">The new way for families to manage content and time online across all devices.</p>
         </div>
       </div>
 

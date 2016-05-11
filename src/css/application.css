@@ -33,9 +33,11 @@
 
 
 /* code block */
+.app-primary {
+  background-color: #80D9F5;
+}
 .app-code-block {
-  background-color: #262F36;
-  overflow: hidden;
+  background-color: #F08181;
 }
 .app-code {
   color: #6EA4CF;
@@ -71,7 +73,7 @@
 
 /* brand ribbon block */
 .app-ribbon {
-  background: #2595FF;
+  background: #80D9F5;
 }
 .app-ribbon .container {
   padding-left: 0;
@@ -108,7 +110,7 @@
 
 /* footer block */
 .app-footer {
-  background-color: #262F36;
+  background-color: #545557;
 }
 .app-footer a {
   color: #fff;

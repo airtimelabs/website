@@ -27,14 +27,6 @@ var siteBuild = metalsmith(__dirname)
 
   // JS
   .use(uglify())
-  .use(concat({
-    files: [
-      'js/jquery.min.js',
-      'js/main.min.js',
-      'js/application.min.js'
-    ],
-    output: 'js/bundle.js'
-  }))
 
   // Templates
   .use(filenames())
