@@ -162,3 +162,8 @@
     align-items: center;
   }
 }
+
+.social-links a {
+  display: inline-block;
+  margin-right: 10px;
+}

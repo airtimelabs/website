@@ -68,8 +68,8 @@ var site = metalsmith(__dirname)
         files  : [
           'src/css/*.css',
           'src/js/*.js',
-          'templates/*.html',
-          'src/*.html'
+          'src/**/*.html',
+          'templates/**/*.html'
         ]
       }))
   }
