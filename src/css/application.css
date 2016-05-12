@@ -11,7 +11,7 @@
   width: 150%;
   position: absolute;
   right: 0;
-  bottom: -40px;
+  bottom: -10px;
 }
 @media (min-width: 768px) {
   .app-graph {
@@ -28,6 +28,7 @@
 @media (min-width: 768px) {
   .app-iphone-block {
     padding-bottom: 0;
+    margin-bottom: -1px;
   }
 }
 
@@ -36,7 +37,7 @@
 .app-primary {
   background-color: #80D9F5;
 }
-.app-code-block {
+.app-red {
   background-color: #F08181;
 }
 .app-code {
