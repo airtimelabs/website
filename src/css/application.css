@@ -93,6 +93,14 @@
 .app-marketing-grid .m-b {
   margin-bottom: 10px !important;
 }
+
+.app-marketing-grid a {
+  text-decoration: none;
+}
+
+.app-marketing-grid:hover  a {
+  color: #70B7CE;
+}
 @media (max-width: 768px) {
   .app-marketing-grid .m-b-lg {
     margin-bottom: 40px !important;
@@ -106,6 +114,13 @@
 }
 .app-price-plans .container {
   margin-bottom: -60px;
+}
+
+/* circle go block*/
+.app-circle-go {
+  background-color: #FECE55;
+  background-image: url('/media/go-devices-detail.jpg');
+  background-size: cover;
 }
 
 
