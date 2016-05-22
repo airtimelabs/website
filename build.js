@@ -17,7 +17,8 @@ var site = metalsmith(__dirname)
     site: {
       url: 'https://helloairtime.com',
       cdn: 'https://cdn.www.helloairtime.com',
-      year: new Date().getFullYear()
+      year: new Date().getFullYear(),
+      analyticsId: 'UA-77773534-1'
     }
   })
 
