@@ -119,7 +119,7 @@
 /* circle go block*/
 .app-circle-go {
   background-color: #FECE55;
-  background-image: url('/media/go-devices-detail.jpg');
+  background-image: url('https://cdn.www.helloairtime.com/media/go-devices-detail.jpg');
   background-size: cover;
 }
 

@@ -14,7 +14,7 @@ sitemap_exclude: false
 
     {% include 'templates/_partials/nav.html' %}
 
-    <img class="app-graph" src="img/banner.svg">
+    <img class="app-graph" src="{{ site.cdn }}/img/banner.svg">
 
     <div class="block-xs-middle p-b-lg">
       <div class="container">
@@ -36,12 +36,15 @@ sitemap_exclude: false
       <div class="row app-align-center">
 
         <div class="col-sm-5">
-          <img class="app-iphone" src="/media/phone-airtime.png" style="width: 100%;">
+          <img class="app-iphone" src="{{ site.cdn }}/media/phone-airtime.png" style="width: 100%;">
         </div>
 
         <div class="col-sm-6 col-sm-offset-1">
           <h3 class="m-t-0">What is Airtime?</h3>
           <p class="lead m-b-md">Airtime provides families with the most flexible plans and devices around. Every kid is different, and as parents you need flexible tools to help them connect. Airtime is designed to be a smarter approach for helping kids and their smartphone experience.</p>
+          <a href="#features" class="btn btn-lg btn-warning">
+            See Features
+          </a>
         </div>
       </div>
 
@@ -61,14 +64,14 @@ sitemap_exclude: false
       <div class="row app-marketing-grid">
         <div class="col-sm-6 p-x-md m-b-lg">
           <a href="#how-it-works">
-            <img class="m-b" src="/media/icon-airtime.svg">
+            <img class="m-b" src="{{ site.cdn }}/media/icon-airtime.svg">
             <h4>Airtime</h4>
             <p>Flexible plans for your kids.</p>
           </a>
         </div>
         <div class="col-sm-6 p-x-md m-b-lg">
           <a href="#devices">
-            <img class="m-b" src="/media/icon-devices.svg">
+            <img class="m-b" src="{{ site.cdn }}/media/icon-devices.svg">
             <h4>Devices</h4>
             <p>Simple and affordable devices.</p>
           </a>
@@ -78,14 +81,14 @@ sitemap_exclude: false
       <div class="row app-marketing-grid">
         <div class="col-sm-6 p-x-md m-b-lg">
           <a href="#circle">
-            <img class="m-b" src="/media/icon-circle.svg">
+            <img class="m-b" src="{{ site.cdn }}/media/icon-circle.svg">
             <h4>Circle with Disney</h4>
             <p>Parental controls for your home.</p>
           </a>
         </div>
         <div class="col-sm-6 p-x-md m-b-lg">
           <a href="#circle-go">
-            <img class="m-b" src="/media/icon-circle-go.svg">
+            <img class="m-b" src="{{ site.cdn }}/media/icon-circle-go.svg">
             <h4>Circle Go</h4>
             <p>Manage the devices on the go.</p>
           </a>
@@ -98,12 +101,20 @@ sitemap_exclude: false
     <div class="container">
       <div class="row app-align-center">
         <div class="col-sm-5 col-sm-push-7">
-          <img class="app-iphone" src="/media/how-it-works.png" style="width: 100%;">
+          <img class="app-iphone" src="{{ site.cdn }}/media/how-it-works.png" style="width: 100%;">
         </div>
         <div class="col-sm-6 col-sm-pull-5">
           <h6 class="text-muted text-uppercase">How it Works</h6>
-          <h3 class="m-t-0">It shouldn’t be complicated, so we made it easy.</h3>
-          <p class="lead m-b-md text-muted">Airtime is really simple. Put as much or as little cash into your kid’s airtime bank and choose how much text, talk, and data you want them to have, at any given time, for a price that makes sense. Change how the airtime can be used at any time. No hidden fees, no additional surcharges, and no complicated monthly plans.</p>
+          <h3 class="m-t-0">It shouldn't be complicated, so we made it easy.</h3>
+          <p class="lead m-b-md text-muted">
+			  Airtime is really simple. Put as much or as little cash into your kid's Airtime bank and choose how much
+			  text, talk, and data you want them to have, at any given time, for a price that makes sense. Change how
+			  the airtime can be used at any time. No hidden fees, no additional surcharges, and no complicated monthly
+			  plans.
+		  </p>
+			<p>
+				<a href="#plans" class="btn btn-default btn-lg">See Plans</a>
+			</p>
         </div>
       </div>
     </div>
@@ -113,7 +124,7 @@ sitemap_exclude: false
     <div class="container">
       <div class="row app-align-center">
         <div class="col-sm-5">
-          <img class="app-iphone" src="/media/coverage.svg" style="width: 100%;">
+          <img class="app-iphone" src="{{ site.cdn }}/media/coverage.svg" style="width: 100%;">
         </div>
         <div class="col-sm-6 col-sm-offset-1">
           <h6 class="text-muted text-uppercase">Coverage</h6>
@@ -131,7 +142,10 @@ sitemap_exclude: false
         <div class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
           <h6 class="text-muted text-uppercase">Plans</h6>
           <h3  class="m-t-0">Flexible plans to meet your needs.</h3>
-          <p class="lead m-b-md">Airtime never expires. Each of our plans include a SIM card and a phone number on the Airtime system. Choose a plan, then a phone and you will be ready to roll!</p>
+          <p class="lead m-b-md">
+            Each of our plans include a SIM card and a phone number on the Airtime system.
+            Choose a plan and a phone and you're ready to roll!
+          </p>
         </div>
       </div>
 
@@ -140,43 +154,49 @@ sitemap_exclude: false
           <div class="p-x">
             <h6 class="text-muted text-uppercase m-b">Simple</h6>
             <h1>$5<small>/mo.</small></h1>
-            <p>Flexible monthly plan with airtime <em>a la carte</em>.</p>
+            <p>
+              Flexible monthly plan with Airtime <em>a la carte</em>.<br>
+              Add as much or as little as you want.
+            </p>
           </div>
 
 
           <ul class="list-unstyled list-bordered m-y-md">
             <h6 class="text-muted text-uppercase m-b">Airtime Rates</h6>
-            <li class="p-y"><strong>4¢</strong> per minute (eg $2 = 100 min)</li>
+            <li class="p-y"><strong>4¢</strong> per minute (eg. $2 = 100 min)</li>
             <li class="p-y"><strong>1¢</strong> per text (eg. $1 = 100 txt)</li>
             <li class="p-y"><strong>5¢</strong> per megabyte (eg. $2 = 40 MB)</li>
-            <li class="p-y text-muted text-uppercase">Airtime never expires</li>
+            <li class="p-y text-muted text-uppercase">A la carte Airtime never expires</li>
           </ul>
 
-          <button class="btn btn-lg btn-warning btn-block">
+          <a href="/products/simple-plan" class="btn btn-lg btn-warning btn-block">
             Get Simple
-          </button>
+          </a>
         </div>
 
         <div class="col-sm-6 p-x m-b-lg">
           <div class="p-x">
             <h6 class="text-muted text-uppercase m-b">Level Up</h6>
             <h1>$20<small>/mo.</small></h1>
-            <p>Steady monthly plan with Airtime included.*</p>
+            <p>
+              Steady monthly plan with Airtime included.*<br>
+              Additional Airtime can be added <em>a la carte</em>.
+            </p>
           </div>
 
           <ul class="list-unstyled list-bordered m-y-md">
             <h6 class="text-muted text-uppercase m-b">Airtime Rates</h6>
-            <li class="p-y"><strong>2¢</strong> per minute (eg $1 = 100 min)</li>
-            <li class="p-y"><strong>.5¢</strong> per text (eg. $1 = 200 txt)</li>
-            <li class="p-y"><strong>5¢</strong> per 2 MB (eg. $1 = 40 MB)</li>
-            <li class="p-y text-muted text-uppercase">Airtime never expires</li>
+            <li class="p-y"><strong>2¢</strong> per minute (eg. $1 = 100 min)</li>
+            <li class="p-y"><strong>0.5¢</strong> per text (eg. $1 = 200 txt)</li>
+            <li class="p-y"><strong>2.5¢</strong> per megabyte (eg. $1 = 40 MB)</li>
+            <li class="p-y text-muted text-uppercase">A la carte Airtime never expires</li>
           </ul>
 
-          <button class="btn btn-lg btn-warning btn-block">
+          <a href="/products/level-up-plan" class="btn btn-lg btn-warning btn-block">
             Get Leveled Up
-          </button>
+          </a>
           <br />
-          <p><em>$15 included Airtime monthly.</em></p>
+          <p><em>* $15 included Airtime monthly.</em></p>
         </div>
       </div>
     </div>
@@ -189,13 +209,21 @@ sitemap_exclude: false
         <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
           <h6 class="text-muted text-uppercase m-b">Devices</h6>
           <h3  class="m-t-0 m-b">Find the right device for your kid.</h3>
-          <p class="lead m-b-md">Your kid wants a smartphone, but somehow an 8 year old with the same phone as you doesn’t seem right. We’ve chosen 4 fantastic devices that would be great for any age.</p>
+          <p class="lead m-b-md">Your kid wants a smartphone, but somehow an 8 year old with the same phone as you doesn't seem right. We've chosen 4 fantastic devices that would be great for any age.</p>
         </div>
       </div>
 
       <div class="col-xs-12">
-        <img src="/media/devices.jpg" alt="Choose from our great devices." width="100%" />
+        <a href="/collections/devices">
+        <img src="{{ site.cdn }}/media/devices.jpg" alt="Choose from our great devices." width="100%" />
+        </a>
       </div>
+
+      <p>
+        <a class="btn btn-info btn-lg" href="/collections/devices">
+          See Devices
+        </a>
+      </p>
 
     </div>
   </div>
@@ -204,14 +232,14 @@ sitemap_exclude: false
     <div class="container">
       <div class="row app-align-center">
         <div class="col-sm-5 col-sm-push-7">
-          <img class="app-iphone" src="/media/rewards.svg" style="width: 100%;">
+          <img class="app-iphone" src="{{ site.cdn }}/media/rewards.svg" style="width: 100%;">
         </div>
         <div class="col-sm-6 col-sm-pull-5">
           <h6 class="text-muted text-uppercase">Rewards</h6>
           <h3 class="m-t-0">Make them earn it!</h3>
           <p class="lead m-b-md text-muted">What if your kids could earn more airtime by doing the dishes or cleaning the room? With Airtime Rewards you can set up activities for your kids to complete and set an amount of airtime they'll earn if they do it.</p>
           <p>
-            <a class="btn btn-info btn-lg disabled">
+            <a class="btn btn-info btn-lg" href="#plans">
               Coming Soon...
             </a>
           </p>
@@ -225,14 +253,14 @@ sitemap_exclude: false
       <div class="row app-align-center">
 
         <div class="col-sm-5">
-          <img class="app-iphone" src="/media/phone-circle.png" style="width: 100%;">
+          <img class="app-iphone" src="{{ site.cdn }}/media/phone-circle.png" style="width: 100%;">
         </div>
 
         <div class="col-sm-6 col-sm-offset-1">
           <h6 class="text-muted text-uppercase">Parental Controls at Home</h6>
           <h3 class="m-t-0">Circle with Disney</h3>
           <p class="lead m-b-md">The new way for families to manage content and time online across all devices.</p>
-          <a href="https://meetcircle.com/?ref=helloairtime" target="_blank" class="btn btn-primary btn-lg">Learn More</a>
+          <a href="/products/circle-with-disney" class="btn btn-primary btn-lg">Learn More</a>
         </div>
       </div>
 
@@ -243,13 +271,13 @@ sitemap_exclude: false
     <div class="container text-center">
       <div class="row m-b-lg">
         <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
-          <img src="/media/icon-circle-go.svg" alt="Circle Go" />
+          <img src="{{ site.cdn }}/media/icon-circle-go.svg" alt="Circle Go" />
           <br/>
           <br/>
           <h6 class="text-muted text-uppercase">Parental Controls on the Go</h6>
           <h3  class="m-t-0 m-b">Circle Go</h3>
-          <p class="lead m-b-md">Now you can extend Circle's settings anywhere with Circle Go. All your favorite settings now on 4G and any other Network they join.</p>
-          <a href="https://meetcircle.com/circle-go/?ref=helloairtime" target="_blank" class="btn btn-default btn-lg">Learn More</a>
+          <p class="lead m-b-md">Now you can extend Circle's settings anywhere with Circle Go. All your favorite settings now on 4G and any other network they join.</p>
+          <a href="/products/circle-with-disney" class="btn btn-default btn-lg">Learn More</a>
         </div>
       </div>
     </div>

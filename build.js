@@ -15,7 +15,8 @@ var site = metalsmith(__dirname)
   // Metadata
   .metadata({
     site: {
-      url: 'http://helloairtime.com',
+      url: 'https://helloairtime.com',
+      cdn: 'https://cdn.www.helloairtime.com',
       year: new Date().getFullYear()
     }
   })
